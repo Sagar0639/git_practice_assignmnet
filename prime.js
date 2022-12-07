@@ -1,11 +1,14 @@
-let num =13;
+let num =19;
  let count=0;
-for(let i =1;i<=num;i++)
-{ if(num%i==0)
+for(let i =1;i<=num;i++){
+
+if(num%i==0){
+  count++
 }
-{ count++}
-if (count==2){
-console.log("prime")
-else{
-console.log("not a prime")
+
 }
+  if(count==2){
+    console.log("Prime")
+  }else{
+    console.log("Not prime")
+  }
