@@ -1,13 +1,17 @@
-let string="racecar"
+
  function rev(string){
 let bag=""
 for(let i=string.length-1;i>=0;i--){
 bag=bag+string[i];
 }
-return bag;
+
+
+if(bag==string){
+  return true
+}else{
+ return false
 }
-let reversed=rev(string);
-if(string==reversed){
-console.log("palindrome");
-}else {
-console.log(
+}
+
+let answer=rev("rwacawr");
+console.log(answer)
